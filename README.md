@@ -1,6 +1,8 @@
 # Hi There!
 
-I'm Oliver. I'm a web developer and coding mentor, currently working at [Coder Academy](https://www.coderacademy.edu.au/) as a lead educator. On 10th February, 2022, I'll be delivering an ACS masterclass talk entitled "Intro To Python". Register [here]!(https://acs-events.webex.com/acs-events/onstage/g.php?MTID=e023dc5f9b7a278438d8d8053dafb039c) 
+I'm Oliver. I'm a web developer and coding mentor, currently working at [Coder Academy](https://www.coderacademy.edu.au/) as a lead educator. On 10th February, 2022, I'll be delivering an ACS masterclass talk entitled "Intro To Python". Register [here](https://acs-events.webex.com/acs-events/onstage/g.php?MTID=e023dc5f9b7a278438d8d8053dafb039c)! 
+
+![Me](images/me.jpeg)
 
 There are a few really useful tools you can use to get a little bit more out of this talk. You may have already encountered them, or may already be using them in your own coding adventure, but don't worry if you haven't. I'll be explaining everything we look at from the ground up. It also won't be a requirement to have or understand these tools to enjoy the talk - but they might make things a little more fun!
 
@@ -14,15 +16,20 @@ VS Code is an editor we'll be using to write code. You don't really need VS Code
 Some of the following links provide commands to run in the terminal for installing software, and during the presentation we will also be using the terminal to activate our code. You don't need to install anything to use this tool, but if you aren't familiar with it, this link explains a little about how to use it.  
 
 ## [PIP](https://pip.pypa.io/en/stable/installation/)
-PIP is a command-line tool for managing Python add-ons. Your Python installation should have come with PIP automatically, but this link will give you instructions on how to check if you have it, and how get it if you need. The code snippets in the linked webpage are intended to be run in the terminal.
+PIP is a command-line tool for installing Python add-ons. Your Python installation should have come with PIP automatically, but this link will give you instructions on how to check if you have it, and how get it if you need. The code snippets in the linked webpage are intended to be run in the terminal.
 
-## [Django]()
-Django is a web-development package for Python which I'll be discussing during the talk. You can use PIP to install django.
+## [Virtualenv](https://virtualenv.pypa.io/en/latest/index.html)
+Virtualenv is a tool for managing Python add-ons - it lets you keep the tools you are using on a project organised and locked away, so that they don't clutter up the rest of your computer. I recommend using a new Virtualenv environment every single time you start a coding project. You can install it using PIP through the terminal:
+
 ### On Windows:
 ```
-py -m pip install Django
-``` 
-### On Linux/Mac:
+py -m pip install virtualenv
 ```
-python -m pip install Django
+
+### On Mac:
 ```
+python3 -m pip install virtualenv
+```
+
+
+
