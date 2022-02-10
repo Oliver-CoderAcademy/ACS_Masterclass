@@ -2,6 +2,8 @@
 
 Django is a powerful and flexible tool, designed to serve all sorts of complex, full-stack websites. Today we are going to use it for something a bit simpler: serving a single, static page of HTML. It's not much, but it's a good place to start!
 
+We are taking a few little shortcuts here so that we can cram all of this work into the session. If you want a deeper look at how to use Django, check out the links in the Useful Resources document.
+
 This walkthrough requires you to have the tools listed in the 
 README installed. 
 
@@ -277,3 +279,4 @@ Your new page should be available from [http://127.0.0.1:8000/homepage/](http://
 
 ![A screenshot of the successful webpage.](images/resulting_page.png)
 
+Awesome!!
