@@ -31,5 +31,10 @@ py -m pip install virtualenv
 python3 -m pip install virtualenv
 ```
 
+## What's next?
 
+If you're attending the talk, see you soon! 
 
+If you're accessing this page after the fact, I've attached a couple more files you can look at. There's a list of helpful resources that will let you get started with coding in Django if that's what you want to do, and also a quick walkthrough for setting up a static site with Django. 
+
+Finally, if you want to learn more, develop a portfolio, enter the industry, and get a tertiary qualification in the process, take a look at the bootcamps we offer at [Coder Academy](https://www.coderacademy.edu.au/coding-courses/coding-bootcamps). It's a really great way to learn. :)
