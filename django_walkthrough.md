@@ -280,3 +280,26 @@ Your new page should be available from [http://127.0.0.1:8000/homepage/](http://
 ![A screenshot of the successful webpage.](images/resulting_page.png)
 
 Awesome!!
+
+## Step F - Back It Up!
+
+Now that we're done coding for the moment, it's a great idea to push your code to GitHub so that you can keep it safe.
+
+1. Navigate to your project repository in the terminal.
+
+2. Record all the changes you've made to the repo by "adding them to staging".
+
+```shell
+git add .
+```
+
+3. Make a "commit", to collect those changes into one bundle.
+
+```shell
+git commit -m "<add_a_message_here_explaining_your_commit"
+```
+
+4. Push the commit to Github:
+```shell
+git push origin main
+```
